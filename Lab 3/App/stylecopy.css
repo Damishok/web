@@ -1,0 +1,41 @@
+@import url(reset.css);
+.header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 50px;
+}
+.main {
+    width: 100%;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 50px 150px;
+}
+.main input{
+    width: 400px;
+    height: 30px;
+    margin: 50px;
+}
+.task-header{
+    width: 100%;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 0 150px;
+    
+}
+.task-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-item>div {
+    width: 33.3333333%;
+}
+.task{
+    padding: 0 150px;
+}
